@@ -1,0 +1,196 @@
+* {
+  border: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: springgreen;
+  padding: 10px;
+}
+.logo,
+.BMW {
+  width: 200px;
+}
+.nav-list > ul,
+li {
+  display: flex;
+}
+.nav-list > ul,
+li,
+a {
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+.text-div {
+  flex: 1;
+}
+
+.img-div {
+  flex: 1;
+  width: 100%;
+}
+
+.img-div img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.img-div img:hover {
+  transform: scale(1.02);
+}
+
+#banner-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+main {
+  padding: 40px 20px;
+  background: linear-gradient(135deg, steelblue, #2c3e60);
+  color: white;
+}
+
+.btn {
+  padding: 12px 32px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: white;
+  color: steelblue;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease,
+    transform 0.2s ease;
+}
+
+.btn:hover {
+  background-color: tomato;
+  color: white;
+  transform: translateY(-2px);
+}
+.total {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(7, 1fr);
+}
+.day {
+  background-color: aqua;
+  color: orangered;
+  flex: 1;
+  text-align: center;
+  padding: 30px;
+  font-size: 2rem;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.day:hover {
+  background-color: steelblue;
+  color: white;
+}
+
+.Week {
+  display: flex;
+  gap: 20px;
+}
+.week-div {
+  background-color: rgb(255, 145, 0);
+  color: rgb(240, 236, 234);
+  flex: 1;
+  text-align: center;
+  padding: 10px 30px;
+  font-size: 2rem;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.week-div:hover {
+  background-color: brown;
+  color: springgreen;
+}
+#calender-section {
+  justify-content: space-around;
+  width: 60%;
+  margin: 0 auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th {
+  border: solid 1px;
+  font-size: 2rem;
+}
+td {
+  border: solid 1px;
+  font-size: 2rem;
+  text-align: center;
+}
+thead:hover {
+  background-color: #2c3e60;
+  color: white;
+}
+tbody > tr:hover {
+  background-color: steelblue;
+  color: rgb(135, 221, 101);
+}
+#table-section {
+  width: 80%;
+  margin: 0 auto;
+}
+.card {
+  background-color: #212121;
+  color: white;
+  padding: 30px;
+  border-radius: 20px;
+}
+.fonts {
+  font-size: 2rem;
+  position: relative;
+}
+.doler {
+  position: absolute;
+  top: 4px;
+  left: -9px;
+  font-size: 18px;
+}
+.us {
+  position: relative;
+  top: 8px;
+  left: -4px;
+  font-size: 16px;
+}
+.bt {
+  width: 100%;
+  padding: 10px;
+  border-radius: 60px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.6);
+  font-weight: bold;
+  color: white;
+}
+.h {
+  color: white;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+#card-section {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
